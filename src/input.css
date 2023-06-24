@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.bg{
+    background-image: url("/build/images/photo-1603288969064-6931a11eca7f.jpeg");
+    background-size: 800px;
+    background-position: center;
+    
+}
+
+.lenght {
+    width: 25rem;
+    height: 45rem;
+}
+
+.font-segeo1 {
+    font-family: segoe print;
+}
+
+.text-shadow{
+    text-shadow: 0.2px 1px 2px black ;
+}
+
+.effect-blur:hover {
+    backdrop-filter: blur(0.3rem);
+}
+
+.slimheight{
+    height: 1px;
+    opacity: 50%;
+}
+
+.height{
+    height: 100vh;
+}
+
+.viewitems {
+    display: none;
+
+}
+
+.viewThings{
+    content: "Loading";
+    display: block;
+    top: 0;
+    right: 0;
+    color: white
+}
