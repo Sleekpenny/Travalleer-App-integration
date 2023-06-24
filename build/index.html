@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App API </title>
     <link rel="stylesheet" href="/build/css/style.css">
-    <script src="/build/weather.js" defer></script>
+    <script type="module" src="/build/weather.js" ></script>
     
 </head>
 <body>
@@ -17,14 +17,14 @@
             <source src="/build/images/windygrassnoaudio_preview.mp4" type="video/mp4" class="videop">
         </video>
         
-    <div class=" flex items-center justify-center">
-        <input type="text" name="city" placeholder="What City?" class="mt-8 search-box text-center shadow-md rounded px-4 w-96 h-8 outline-none placeholder:text-center font-segeo1 bg text-white">
+    <div class="mx-auto flex items-center justify-center">
+        <input type="text" name="city" placeholder="What City?" class="mt-8 search-box text-center shadow-md rounded px-4 w-80  md:w-96 h-8 outline-none placeholder:text-center font-segeo1 bg text-white">
         <button  type="button" class="outline-none mt-8 h-8 flex items-center searh-icon rounded-3xl px-2 ml-4 ">
             <img src="/build/images/icons8-search-48.png" width="22" alt="search" class=""></button>
     </div>
 
     <article class="viewitems">
-    <div class="flex justify-between mt-12 md:w-full w-80 mx-auto">
+    <div class="flex justify-between mt-12 md:w-full weight2 mx-auto">
         <div class="">
         <p class="time font-thin md:text-7xl text-6xl text-gray-300 text-shadow opacity-40 ml-4 text-center"> </p>
         <div class="flex ml-4 mt-4 items-center">

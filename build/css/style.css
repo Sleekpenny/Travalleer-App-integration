@@ -751,7 +751,7 @@ html {
   background-position: center;
 }
 
-`.lenght {
+.lenght {
   width: 25rem;
   height: 45rem;
 }
@@ -790,6 +790,10 @@ html {
   color: white
 }
 
+.weight2{
+  width: 22rem;
+}
+
 .placeholder\:text-center::-moz-placeholder {
   text-align: center;
 }
@@ -799,6 +803,10 @@ html {
 }
 
 @media (min-width: 768px) {
+  .md\:w-96 {
+    width: 24rem;
+  }
+
   .md\:w-full {
     width: 100%;
   }
